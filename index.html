@@ -54,7 +54,14 @@
       <section class="section-hero">
         <div class="container-hero"> 
           <h1 class="hero-text maintitle">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero firstbutton">Order Service</button>
+          <!-- Modal window one -->
+          <button type="button" class="hero firstbutton" data-modal-open>Order Service</button>
+            <div class="backdrop is-hidden" data-modal>
+              <div class="modal-one">
+                <p></p>
+                <button  class="close-btn" data-modal-close>x</button>
+              </div>
+            </div>
         </div>
       </section>
       
@@ -389,5 +396,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
